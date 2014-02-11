@@ -1,0 +1,40 @@
+WARNING: Linux-64-bit, 8 CPUs, RH_UNK system "quad-wn16" is not supported by the Performance tools.
+Creating experiment database test.9.er ...
+Training Data Uploaded.
+Testing Data Uploaded.
+
+Testing Simple KNN(Without Weights).
+----------------------KNN----------------------
+Number of Training Examples      # 224
+Number of Testing Examples       # 46
+K used                           = 3
+Correctly Classified Instances   # 28
+Incorrectly Classified Instances # 18
+Accuracy (%)                     = 60.8696
+-----------------------------------------------
+
+
+Starting Attribute Weighted KNN...
+-------Attribute Weighted-KNN---------------------------
+Number of Training Examples      # 224
+Number of Testing Examples       # 46
+K used                           = 3
+Correctly Classified Instances   # 41
+Incorrectly Classified Instances # 5
+Accuracy (%)                     = 89.1304
+--------------------------------------------------------
+
+Starting Backward Elimination...
+--------------------Backward Elimination--------------------
+Initial Accuracy on training data with 13 attributes = 82.1429%
+Backward Elimination achieves 83.9286% accuracy with 11 attributes 
+ on training data.
+Number of Testing Examples       # 46
+K used                           = 3
+Correctly Classified Instances   # 42
+Incorrectly Classified Instances # 4
+Backward Elimination achieves 91.3044% accuracy with 11 attributes 
+ on testing data.
+------------------------------------------------------------
+
+Starting Instance Weighted KNN...

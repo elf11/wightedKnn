@@ -1,0 +1,78 @@
+Functions sorted by metric: Exclusive User CPU Time
+
+Excl.     Incl.      Name
+User CPU  User CPU
+  sec.      sec.
+42.769    42.769     <Total>
+22.484    22.484     TrainingExample::~TrainingExample()
+ 4.651    30.416     std::list<TrainingExample, std::allocator<TrainingExample> >::merge<bool (*)(TrainingExample, TrainingExample)>(std::list<TrainingExample, std::allocator<TrainingExample> >&, bool (*)(TrainingExample, TrainingExample))
+ 2.711    42.709     PredictByKNN(std::list<TrainingExample, std::allocator<TrainingExample> >*, double*, bool, unsigned*, MODE, bool, bool)
+ 1.350     1.350     std::_List_iterator<TrainingExample>::operator++()
+ 1.100     1.100     compare(TrainingExample, TrainingExample)
+ 1.100     1.100     std::_List_iterator<TrainingExample>::operator!=(const std::_List_iterator<TrainingExample>&)const
+ 0.590     0.590     _int_free
+ 0.550     0.550     std::_List_iterator<TrainingExample>::operator*()const
+ 0.520     0.520     std::_List_node_base::transfer(std::_List_node_base*, std::_List_node_base*)
+ 0.490     0.490     _int_malloc
+ 0.490    33.217     std::list<TrainingExample, std::allocator<TrainingExample> >::sort<bool (*)(TrainingExample, TrainingExample)>(bool (*)(TrainingExample, TrainingExample))
+ 0.460     0.470     __gnu_cxx::new_allocator<TrainingExample>::construct(TrainingExample*, const TrainingExample&)
+ 0.460     0.460     memcpy
+ 0.450     0.450     std::_List_iterator<TrainingExample>::_List_iterator(std::_List_node_base*)
+ 0.410     0.650     std::list<TrainingExample, std::allocator<TrainingExample> >::end()
+ 0.400     0.600     std::list<TrainingExample, std::allocator<TrainingExample> >::begin()
+ 0.380     0.900     std::list<TrainingExample, std::allocator<TrainingExample> >::_M_transfer(std::_List_iterator<TrainingExample>, std::_List_iterator<TrainingExample>, std::_List_iterator<TrainingExample>)
+ 0.370     0.710     std::list<TrainingExample, std::allocator<TrainingExample> >::swap(std::list<TrainingExample, std::allocator<TrainingExample> >&)
+ 0.260     2.280     std::list<TrainingExample, std::allocator<TrainingExample> >::insert(std::_List_iterator<TrainingExample>, const TrainingExample&)
+ 0.240     0.280     std::allocator<TrainingExample>::~std::allocator()
+ 0.220     0.220     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_M_get_Node_allocator()
+ 0.200     0.200     std::list<TrainingExample, std::allocator<TrainingExample> >::empty()const
+ 0.190     0.810     std::list<TrainingExample, std::allocator<TrainingExample> >::splice(std::_List_iterator<TrainingExample>, std::list<TrainingExample, std::allocator<TrainingExample> >&, std::_List_iterator<TrainingExample>)
+ 0.180     3.281     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_M_clear()
+ 0.160     1.910     std::list<TrainingExample, std::allocator<TrainingExample> >::_M_create_node(const TrainingExample&)
+ 0.150     0.900     __gnu_cxx::new_allocator<std::_List_node<TrainingExample> >::allocate(unsigned long, const void*)
+ 0.140     0.800     __gnu_cxx::new_allocator<std::_List_node<TrainingExample> >::deallocate(std::_List_node<TrainingExample>*, unsigned long)
+ 0.140     0.190     std::allocator<TrainingExample>::std::allocator<std::_List_node<TrainingExample> >(const std::allocator<std::_List_node<TrainingExample> >&)
+ 0.130     0.130     __ieee754_sqrt
+ 0.130     0.620     malloc
+ 0.130     0.370     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_M_get_Tp_allocator()const
+ 0.130     0.130     std::_List_node_base::swap(std::_List_node_base&, std::_List_node_base&)
+ 0.120     0.120     std::_List_iterator<TrainingExample>::operator==(const std::_List_iterator<TrainingExample>&)const
+ 0.120     0.280     std::list<TrainingExample, std::allocator<TrainingExample> >::_M_check_equal_allocators(std::list<TrainingExample, std::allocator<TrainingExample> >&)
+ 0.100     1.920     __gnu_cxx::new_allocator<TrainingExample>::destroy(TrainingExample*)
+ 0.100     0.100     isnan
+ 0.100     0.720     operator new(unsigned long)
+ 0.100     0.100     std::_List_node_base::hook(std::_List_node_base*)
+ 0.090     0.090     std::__alloc_neq<std::allocator<std::_List_node<TrainingExample> >, true>::_S_do_it(const std::allocator<std::_List_node<TrainingExample> >&, const std::allocator<std::_List_node<TrainingExample> >&)
+ 0.060     0.060     free
+ 0.060     0.060     std::__alloc_swap<std::allocator<std::_List_node<TrainingExample> >, true>::_S_do_it(std::allocator<std::_List_node<TrainingExample> >&, std::allocator<std::_List_node<TrainingExample> >&)
+ 0.060     0.860     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_M_put_node(std::_List_node<TrainingExample>*)
+ 0.050     0.050     __gnu_cxx::new_allocator<TrainingExample>::new_allocator()
+ 0.050     0.950     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_M_get_node()
+ 0.050     0.050     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_M_get_Node_allocator()const
+ 0.040     0.040     __gnu_cxx::new_allocator<TrainingExample>::~new_allocator()
+ 0.040     0.270     sqrt
+ 0.030     0.030     __gnu_cxx::new_allocator<std::_List_node<TrainingExample> >::max_size()const
+ 0.030     0.030     __gnu_cxx::new_allocator<std::_List_node<TrainingExample> >::new_allocator()
+ 0.030     0.060     std::allocator<std::_List_node<TrainingExample> >::std::allocator()
+ 0.030     0.090     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_List_impl::_List_impl()
+ 0.020     0.020     __gnu_cxx::new_allocator<std::_List_node<TrainingExample> >::~new_allocator()
+ 0.020     3.341     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::~_List_base()
+ 0.020     0.130     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_List_base()
+ 0.020     0.040     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_List_impl::~_List_impl()
+ 0.020     0.020     std::_List_base<TrainingExample, std::allocator<TrainingExample> >::_M_init()
+ 0.010    40.608     LearnWeights(std::list<TrainingExample, std::allocator<TrainingExample> >*, std::list<TrainingExample, std::allocator<TrainingExample> >, int, int, MODE, int, bool)
+ 0.010     0.010     operator delete(void*)
+ 0.010     0.010     operator new(unsigned long, void*)
+ 0.010     3.351     std::list<TrainingExample, std::allocator<TrainingExample> >::~list()
+ 0.        0.030     AdjustWeightsByGradientDescent(double*, std::list<TrainingExample, std::allocator<TrainingExample> >*, double, unsigned*, bool)
+ 0.       28.286     AttributeWKNN(std::list<TrainingExample, std::allocator<TrainingExample> >*, int, std::list<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.        2.070     BackwardElimination(std::list<TrainingExample, std::allocator<TrainingExample> >*, int, std::list<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.        8.882     CrossValidate(std::list<TrainingExample, std::allocator<TrainingExample> >*, int, int, bool)
+ 0.       12.382     InstanceWKNN(std::list<TrainingExample, std::allocator<TrainingExample> >*, int, std::list<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.       42.769     __libc_start_main
+ 0.       42.769     main
+ 0.        0.030     SimpleKNN(std::list<TrainingExample, std::allocator<TrainingExample> >*, int, std::list<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.        0.020     std::allocator<std::_List_node<TrainingExample> >::~std::allocator()
+ 0.        0.130     std::list<TrainingExample, std::allocator<TrainingExample> >::list()
+ 0.       19.624     TestKNN(std::list<TrainingExample, std::allocator<TrainingExample> >*, std::list<TrainingExample, std::allocator<TrainingExample> >, bool, MODE, bool, bool)
+

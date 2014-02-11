@@ -1,0 +1,81 @@
+Functions sorted by metric: Exclusive User CPU Time
+
+Excl.     Incl.      Name
+User CPU  User CPU
+  sec.      sec.
+18.114    18.114     <Total>
+ 2.501     7.301     std::__unguarded_partition<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, TrainingExample, bool (*)(TrainingExample, TrainingExample)>(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, TrainingExample, bool (*)(TrainingExample, TrainingExample))
+ 2.170     3.151     TrainingExample::~TrainingExample()
+ 1.670     1.670     __GI_memset
+ 1.670    18.094     PredictByKNN(std::vector<TrainingExample, std::allocator<TrainingExample> >*, double*, bool, unsigned*, MODE, bool, bool)
+ 1.570     1.570     memcpy
+ 1.410     1.410     compare(TrainingExample, TrainingExample)
+ 1.270     3.601     std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, TrainingExample, bool (*)(TrainingExample, TrainingExample)>(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, TrainingExample, bool (*)(TrainingExample, TrainingExample))
+ 0.710     0.710     __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >::operator*()const
+ 0.590     0.590     std::abs(double)
+ 0.410     0.410     __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >::base()const
+ 0.360     1.180     std::swap<TrainingExample>(TrainingExample&, TrainingExample&)
+ 0.350     0.380     std::__uninitialized_copy<false>::uninitialized_copy<TrainingExample*, TrainingExample*>(TrainingExample*, TrainingExample*, TrainingExample*)
+ 0.330     4.251     std::__unguarded_insertion_sort<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample)>(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample))
+ 0.310     0.360     __gnu_cxx::new_allocator<TrainingExample>::construct(TrainingExample*, const TrainingExample&)
+ 0.270     0.270     __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >::operator--()
+ 0.270     0.270     __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >::operator++()
+ 0.240     0.240     __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >::__normal_iterator(TrainingExample*const&)
+ 0.230     2.000     std::vector<TrainingExample, std::allocator<TrainingExample> >::insert(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, const TrainingExample&)
+ 0.190     0.760     std::_Destroy_aux<false>::__destroy<TrainingExample*>(TrainingExample*, TrainingExample*)
+ 0.160     0.160     __ieee754_sqrt
+ 0.150     0.360     __gnu_cxx::operator!=<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >(const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&, const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&)
+ 0.140     0.270     std::__median<TrainingExample, bool (*)(TrainingExample, TrainingExample)>(const TrainingExample&, const TrainingExample&, const TrainingExample&, bool (*)(TrainingExample, TrainingExample))
+ 0.140     0.330     std::vector<TrainingExample, std::allocator<TrainingExample> >::end()
+ 0.110     0.160     __gnu_cxx::operator-<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >(const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&, const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&)
+ 0.110     7.772     std::__introsort_loop<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, long, bool (*)(TrainingExample, TrainingExample)>(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, long, bool (*)(TrainingExample, TrainingExample))
+ 0.080     0.200     __gnu_cxx::operator< <TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >(const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&, const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&)
+ 0.080     0.080     _int_malloc
+ 0.080     0.080     operator new(unsigned long, void*)
+ 0.070     0.570     std::_Destroy<TrainingExample>(TrainingExample*)
+ 0.060     0.080     __gnu_cxx::operator==<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >(const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&, const __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >&)
+ 0.040     0.250     std::__insertion_sort<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample)>(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample))
+ 0.040     1.310     std::__iter_swap<true>::iter_swap<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > > >(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >)
+ 0.040     0.070     std::vector<TrainingExample, std::allocator<TrainingExample> >::begin()
+ 0.040     1.080     std::vector<TrainingExample, std::allocator<TrainingExample> >::_M_insert_aux(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, const TrainingExample&)
+ 0.040     0.040     std::vector<TrainingExample, std::allocator<TrainingExample> >::size()const
+ 0.030     0.210     sqrt
+ 0.030     1.340     std::iter_swap<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > > >(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >)
+ 0.020     0.020     isnan
+ 0.020     0.100     malloc
+ 0.010     0.010     free
+ 0.010     0.030     __gnu_cxx::new_allocator<TrainingExample>::deallocate(TrainingExample*, unsigned long)
+ 0.010     0.010     __gnu_cxx::__normal_iterator<const TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >::__normal_iterator(const TrainingExample*const&)
+ 0.010     0.010     __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >::operator+(const long&)const
+ 0.010     0.010     _int_free
+ 0.010     0.110     operator new(unsigned long)
+ 0.010     0.010     std::max<unsigned long>(const unsigned long&, const unsigned long&)
+ 0.010     0.010     std::__niter_base<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, true>::__b(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >)
+ 0.010     0.390     std::__uninitialized_move_a<TrainingExample*, TrainingExample*, std::allocator<TrainingExample> >(TrainingExample*, TrainingExample*, TrainingExample*, std::allocator<TrainingExample>&)
+ 0.010     0.060     std::vector<TrainingExample, std::allocator<TrainingExample> >::_M_check_len(unsigned long, const char*)const
+ 0.010     0.010     std::vector<TrainingExample, std::allocator<TrainingExample> >::operator[](unsigned long)
+ 0.        0.010     AdjustWeightsByGradientDescent(double*, std::vector<TrainingExample, std::allocator<TrainingExample> >*, double, unsigned*, bool)
+ 0.       12.082     AttributeWKNN(std::vector<TrainingExample, std::allocator<TrainingExample> >*, int, std::vector<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.        0.850     BackwardElimination(std::vector<TrainingExample, std::allocator<TrainingExample> >*, int, std::vector<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.        3.891     CrossValidate(std::vector<TrainingExample, std::allocator<TrainingExample> >*, int, int, bool)
+ 0.        0.110     __gnu_cxx::new_allocator<TrainingExample>::allocate(unsigned long, const void*)
+ 0.        5.171     InstanceWKNN(std::vector<TrainingExample, std::allocator<TrainingExample> >*, int, std::vector<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.       17.223     LearnWeights(std::vector<TrainingExample, std::allocator<TrainingExample> >*, std::vector<TrainingExample, std::allocator<TrainingExample> >, int, int, MODE, int, bool)
+ 0.       18.114     __libc_start_main
+ 0.       18.114     main
+ 0.        0.010     SimpleKNN(std::vector<TrainingExample, std::allocator<TrainingExample> >*, int, std::vector<TrainingExample, std::allocator<TrainingExample> >*, int)
+ 0.        0.010     std::copy_backward<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > > >(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >)
+ 0.        0.010     std::__copy_move_backward_a2<false, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > > >(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >)
+ 0.        0.760     std::_Destroy<TrainingExample*>(TrainingExample*, TrainingExample*)
+ 0.        0.760     std::_Destroy<TrainingExample*, TrainingExample>(TrainingExample*, TrainingExample*, std::allocator<TrainingExample>&)
+ 0.        4.501     std::__final_insertion_sort<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample)>(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample))
+ 0.       12.272     std::sort<__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample)>(__gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, __gnu_cxx::__normal_iterator<TrainingExample*, std::vector<TrainingExample, std::allocator<TrainingExample> > >, bool (*)(TrainingExample, TrainingExample))
+ 0.        0.380     std::__uninitialized_copy_a<TrainingExample*, TrainingExample*, TrainingExample>(TrainingExample*, TrainingExample*, TrainingExample*, std::allocator<TrainingExample>&)
+ 0.        0.380     std::uninitialized_copy<TrainingExample*, TrainingExample*>(TrainingExample*, TrainingExample*, TrainingExample*)
+ 0.        0.110     std::_Vector_base<TrainingExample, std::allocator<TrainingExample> >::_M_allocate(unsigned long)
+ 0.        0.030     std::_Vector_base<TrainingExample, std::allocator<TrainingExample> >::_M_deallocate(TrainingExample*, unsigned long)
+ 0.        0.010     std::vector<TrainingExample, std::allocator<TrainingExample> >::begin()const
+ 0.        0.010     std::vector<TrainingExample, std::allocator<TrainingExample> >::empty()const
+ 0.        0.330     std::vector<TrainingExample, std::allocator<TrainingExample> >::~vector()
+ 0.        8.402     TestKNN(std::vector<TrainingExample, std::allocator<TrainingExample> >*, std::vector<TrainingExample, std::allocator<TrainingExample> >, bool, MODE, bool, bool)
+

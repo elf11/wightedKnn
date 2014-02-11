@@ -1,0 +1,4 @@
+Unknown Redhat Linux version
+Scientific Linux release 6.2 (Carbon)
+WARNING: Data collection may fail: system is not properly configured or is unsupported.
+/opt/n1sge6/sge-6.2u5/NCIT-Cluster/spool/quad-wn16/job_scripts/534659: line 2: 12179 Segmentation fault      (core dumped) collect ./WeightedKNN_pthread
