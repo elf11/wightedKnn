@@ -2,6 +2,7 @@
 //Weighted K Nearest Neighbor Algorithms
 //Date: 05/05/2009
 
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <list>
@@ -10,6 +11,19 @@
 #include <math.h>
 #include <time.h>
 #include <iterator>
+=======
+#include <cstdlib>
+#include <list>
+#include <cstring>
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <algorithm>
+#include <ctime>
+#include<fstream>
+#include<string>
+#include<iomanip>
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 #include "TrainingExample.h"
 
 using namespace std;
@@ -77,7 +91,11 @@ int TestKNN (TRAINING_EXAMPLES_LIST *tlist, TRAINING_EXAMPLES_LIST data,
 
 
 /* Reads the training and testing data into the list. */
+<<<<<<< HEAD
 bool readData4File (const char *filename, 
+=======
+bool readData4File (char *filename, 
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 					TRAINING_EXAMPLES_LIST *rlist, 
 					int *rlistExamples);
 
@@ -97,7 +115,11 @@ void InitAttWeights ();
 /*-----------------------------------------------------------------*/
 /*                                                                 */
 /*-----------------------------------------------------------------*/
+<<<<<<< HEAD
 int main(void)
+=======
+int main(int argc, char* argv[])
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 {
 	/* Training Examples */
 	TRAINING_EXAMPLES_LIST elist;
@@ -147,7 +169,11 @@ int main(void)
 /* rlist - The data structure that holds the training/test data    */
 /* rlistExamples - # of training/test examples                     */
 /*-----------------------------------------------------------------*/
+<<<<<<< HEAD
 bool readData4File (const char *filename, TRAINING_EXAMPLES_LIST *rlist, 
+=======
+bool readData4File (char *filename, TRAINING_EXAMPLES_LIST *rlist, 
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 					int *rlistExamples)
 {
 	FILE *fp = NULL;
@@ -173,6 +199,10 @@ bool readData4File (const char *filename, TRAINING_EXAMPLES_LIST *rlist,
 
 	char *tmp;
 	int tmpParams = 0; //NO_OF_ATT;
+<<<<<<< HEAD
+=======
+	int i = 0;
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 	double cd = 0.0;
 
 	/* Read the data file line by line */
@@ -496,7 +526,11 @@ void NormalizeByStandardDeviation (TRAINING_EXAMPLES_LIST *trainList,
 		{
 			tmpTestObj = *Iter;
 			double val = (tmpTestObj.Value[i] - mean)/deviation;
+<<<<<<< HEAD
 			(*Iter).Value[i] = val;
+=======
+			Iter->Value[i] = val;
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 		}
 	}
 }
@@ -658,7 +692,11 @@ int PredictByKNN (TRAINING_EXAMPLES_LIST *tlist, double *query,
 			{
 				if(index[i] == tmpObj.index)
 				{
+<<<<<<< HEAD
 					(*iter).isNearest2AtleastSome = true;
+=======
+					iter->isNearest2AtleastSome = true;
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 					break;
 				}
 			}
@@ -742,7 +780,11 @@ float CrossValidate(TRAINING_EXAMPLES_LIST *data, int iterations,
 	int N = numExamples/3;
 	int first = N;
 	int second = 2*N;
+<<<<<<< HEAD
 	//int third = numExamples;
+=======
+	int third = numExamples;
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 	int i = 0;
 	double accuracy = 0.0;
 
@@ -883,7 +925,11 @@ void AdjustWeightsByGradientDescent (double *qvalue,
 				{
 					double wt = TEObj.Weight;
 					wt = wt + LEARNING_RATE * error;
+<<<<<<< HEAD
 					(*iter).Weight = wt;
+=======
+					iter->Weight = wt;
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 					k--;
 					break;
 				}

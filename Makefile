@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CC=g++
 CFLAGS=-c -Wall -Wextra
 LDFLAGS=-lm
@@ -19,4 +20,18 @@ WeightedKNN.o: WeightedKNN.cpp
 clean:
 	rm -rf *.o WeightedKNN WeightedKNN_omp
 	
+=======
+CFLAGS=-Wall -g
+
+all: weightedKNN
+
+weightedKNN: weightedKNN.o
+		g++ $(CFLAGS) weightedKNN.o -o weightedKNN
+
+weightedKNN.o: WeightedKNN.cpp
+		g++ $(CFLAGS) -c WeightedKNN.cpp -o weightedKNN.o
+
+clean:
+		rm -rf *o weightedKNN
+>>>>>>> 1d4cc8d330e7fa1ed356859b76ef11143c2d2945
 
